@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+name: GitHub Actions
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+        - name: Gitbook Translate
+          uses: lyqht/deepl-translate-github-action@v1.0.0
+          with: 
+            target_languages: es
+            input_file_path: getting-started/how-to-guides.md
+            output_file_name_prefix: www.github.com/jpdwalker92/gitbook-translate/getting-started/
+            deepl_api_key: ${{ secrets.DEEPL_API_KEY }}
