@@ -13,7 +13,8 @@
 
 * [Interactive blocks](basics/interactive-blocks/README.md)
   * [OpenAPI](basics/interactive-blocks/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Integrations](basics/integrations/README.md)
+  * [GitHub OOTB](basics/integrations/github-ootb.md)
 
 ## Marketing
 
@@ -22,7 +23,3 @@
 ## Careers
 
 * [Tech Interviews](careers/tech-interviews.md)
-
-## Group 1
-
-* [Code](group-1/code.md)
